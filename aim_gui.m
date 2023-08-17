@@ -837,7 +837,7 @@ classdef turret_aim_gui < matlab.apps.AppBase
             % Create EditField2_7
             app.EditField2_7 = uieditfield(app.KuleDnmeEksenineGrePanel, 'numeric');
             app.EditField2_7.Position = [90 112 58 22];
-            app.EditField2_7.Value = 706;
+        
 
             % Create EditFieldLabel_2
             app.EditFieldLabel_2 = uilabel(app.KuleDnmeEksenineGrePanel);
@@ -848,7 +848,7 @@ classdef turret_aim_gui < matlab.apps.AppBase
             % Create EditField2_2
             app.EditField2_2 = uieditfield(app.KuleDnmeEksenineGrePanel, 'numeric');
             app.EditField2_2.Position = [94 64 55 22];
-            app.EditField2_2.Value = 995;
+            
 
             % Create EditFieldLabel_3
             app.EditFieldLabel_3 = uilabel(app.KuleDnmeEksenineGrePanel);
@@ -895,7 +895,6 @@ classdef turret_aim_gui < matlab.apps.AppBase
             % Create EditField2_4
             app.EditField2_4 = uieditfield(app.KuleYkselmeEksenineGrePanel, 'numeric');
             app.EditField2_4.Position = [94 109 53 22];
-            app.EditField2_4.Value = 706;
 
             % Create EditFieldLabel_5
             app.EditFieldLabel_5 = uilabel(app.KuleYkselmeEksenineGrePanel);
@@ -906,7 +905,6 @@ classdef turret_aim_gui < matlab.apps.AppBase
             % Create EditField2_5
             app.EditField2_5 = uieditfield(app.KuleYkselmeEksenineGrePanel, 'numeric');
             app.EditField2_5.Position = [94 61 53 22];
-            app.EditField2_5.Value = 341.5;
 
             % Create EditFieldLabel_6
             app.EditFieldLabel_6 = uilabel(app.KuleYkselmeEksenineGrePanel);
@@ -917,7 +915,6 @@ classdef turret_aim_gui < matlab.apps.AppBase
             % Create EditField2_6
             app.EditField2_6 = uieditfield(app.KuleYkselmeEksenineGrePanel, 'numeric');
             app.EditField2_6.Position = [94 14 53 22];
-            app.EditField2_6.Value = 368.5;
 
             % Create mmLabel_4
             app.mmLabel_4 = uilabel(app.KuleYkselmeEksenineGrePanel);
@@ -965,7 +962,6 @@ classdef turret_aim_gui < matlab.apps.AppBase
             % Create xkordinatofsetiEditField
             app.xkordinatofsetiEditField = uieditfield(app.TVKameraPanel, 'numeric');
             app.xkordinatofsetiEditField.Position = [71 41 58 22];
-            app.xkordinatofsetiEditField.Value = -20.7;
 
             % Create zkordinatofsetiEditFieldLabel
             app.zkordinatofsetiEditFieldLabel = uilabel(app.TVKameraPanel);
@@ -976,7 +972,6 @@ classdef turret_aim_gui < matlab.apps.AppBase
             % Create zkordinatofsetiEditField
             app.zkordinatofsetiEditField = uieditfield(app.TVKameraPanel, 'numeric');
             app.zkordinatofsetiEditField.Position = [71 10 58 22];
-            app.zkordinatofsetiEditField.Value = 60.6;
 
             % Create mmLabel_7
             app.mmLabel_7 = uilabel(app.TVKameraPanel);
@@ -1006,7 +1001,6 @@ classdef turret_aim_gui < matlab.apps.AppBase
             % Create xkordinatofsetiEditField_2
             app.xkordinatofsetiEditField_2 = uieditfield(app.LaserPanel, 'numeric');
             app.xkordinatofsetiEditField_2.Position = [70 41 58 22];
-            app.xkordinatofsetiEditField_2.Value = -23.8;
 
             % Create zkordinatofsetiEditField_2Label
             app.zkordinatofsetiEditField_2Label = uilabel(app.LaserPanel);
@@ -1017,7 +1011,6 @@ classdef turret_aim_gui < matlab.apps.AppBase
             % Create zkordinatofsetiEditField_2
             app.zkordinatofsetiEditField_2 = uieditfield(app.LaserPanel, 'numeric');
             app.zkordinatofsetiEditField_2.Position = [71 10 58 22];
-            app.zkordinatofsetiEditField_2.Value = -39.4;
 
             % Create TermalPanel
             app.TermalPanel = uipanel(app.KameraKonumOfsetleriPanel);
@@ -1033,7 +1026,6 @@ classdef turret_aim_gui < matlab.apps.AppBase
             % Create xkordinatofsetiEditField_3
             app.xkordinatofsetiEditField_3 = uieditfield(app.TermalPanel, 'numeric');
             app.xkordinatofsetiEditField_3.Position = [70 41 58 22];
-            app.xkordinatofsetiEditField_3.Value = -9.9;
 
             % Create zkordinatofsetiEditField_3Label
             app.zkordinatofsetiEditField_3Label = uilabel(app.TermalPanel);
@@ -1044,7 +1036,6 @@ classdef turret_aim_gui < matlab.apps.AppBase
             % Create zkordinatofsetiEditField_3
             app.zkordinatofsetiEditField_3 = uieditfield(app.TermalPanel, 'numeric');
             app.zkordinatofsetiEditField_3.Position = [70 10 58 22];
-            app.zkordinatofsetiEditField_3.Value = -122.8;
 
             % Create mmLabel_11
             app.mmLabel_11 = uilabel(app.TermalPanel);
@@ -1145,7 +1136,6 @@ classdef turret_aim_gui < matlab.apps.AppBase
             % Create lkSnrEditField
             app.lkSnrEditField = uieditfield(app.PolinomParametreleriPanel, 'numeric');
             app.lkSnrEditField.Position = [111 171 100 22];
-            app.lkSnrEditField.Value = 400;
 
             % Create kinciSnrEditFieldLabel
             app.kinciSnrEditFieldLabel = uilabel(app.PolinomParametreleriPanel);
@@ -1156,7 +1146,6 @@ classdef turret_aim_gui < matlab.apps.AppBase
             % Create kinciSnrEditField
             app.kinciSnrEditField = uieditfield(app.PolinomParametreleriPanel, 'numeric');
             app.kinciSnrEditField.Position = [111 131 100 22];
-            app.kinciSnrEditField.Value = 1200;
 
             % Create ncSnrEditFieldLabel
             app.ncSnrEditFieldLabel = uilabel(app.PolinomParametreleriPanel);
@@ -1167,7 +1156,6 @@ classdef turret_aim_gui < matlab.apps.AppBase
             % Create ncSnrEditField
             app.ncSnrEditField = uieditfield(app.PolinomParametreleriPanel, 'numeric');
             app.ncSnrEditField.Position = [111 94 100 22];
-            app.ncSnrEditField.Value = 1500;
 
             % Create alfa_1katsaysEditFieldLabel
             app.alfa_1katsaysEditFieldLabel = uilabel(app.PolinomParametreleriPanel);
@@ -1178,7 +1166,6 @@ classdef turret_aim_gui < matlab.apps.AppBase
             % Create alfa_1katsaysEditField
             app.alfa_1katsaysEditField = uieditfield(app.PolinomParametreleriPanel, 'numeric');
             app.alfa_1katsaysEditField.Position = [111 56 100 22];
-            app.alfa_1katsaysEditField.Value = 1;
 
             % Create alfa_2katsaysEditFieldLabel
             app.alfa_2katsaysEditFieldLabel = uilabel(app.PolinomParametreleriPanel);
@@ -1189,7 +1176,6 @@ classdef turret_aim_gui < matlab.apps.AppBase
             % Create alfa_2katsaysEditField
             app.alfa_2katsaysEditField = uieditfield(app.PolinomParametreleriPanel, 'numeric');
             app.alfa_2katsaysEditField.Position = [111 21 100 22];
-            app.alfa_2katsaysEditField.Value = 1.08;
 
             % Create mLabel_3
             app.mLabel_3 = uilabel(app.PolinomParametreleriPanel);
